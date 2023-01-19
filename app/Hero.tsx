@@ -8,7 +8,8 @@ const Hero = () => {
             for their startups quickly and easily.
         </p>
         <a href="" className='px-4 py-2 border bg-[#E93A7D] rounded-[6.25rem] shadow-md
-         text-white hover:text-[#E93A7D] hover:border-[#E93A7D] hover:bg-transparent text-[20px]'>Create an Accont</a>
+         text-white hover:text-[#E93A7D] hover:border-[#E93A7D] hover:bg-transparent text-[20px]'>
+            Create an Accont</a>
     </section>
   )
 }
