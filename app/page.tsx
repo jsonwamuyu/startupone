@@ -5,6 +5,8 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Burners from './Burners';
 import Content from './Content';
+// import Testimonial from './Testimonial';
+import Testimons from './Testimons';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,6 +18,7 @@ export default function Home() {
     <Hero />
     <Burners />
     <Content />
+    <Testimons />
     </>
   )
 }
