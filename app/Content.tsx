@@ -2,7 +2,7 @@ import React from 'react'
 
 const Content = () => {
   return (
-    <section className='p-5 md:px-[11.5rem] pt-[6rem] flex flex-col'>
+    <section className='p-5 md:px-[8rem] lg:px-[10rem] pt-[6rem] flex flex-col'>
         <h2 className='text-4xl font-semibold pb-10'>Easy steps</h2>
         <div className='space-x-4 flex justify-start items-start pb-8 border-l-2'>
             <div className='flex flex-col space-y-0 items-center -ml-4'>
@@ -50,7 +50,8 @@ const Content = () => {
                      You can decide whether to create your site using UI Kit blocks or samples. 
                      The blocks can merge together in various combinations.
                 </p>
-                <a href="" className='py-2 px-4 bg-[#25DAC5] rounded-[6.5rem] max-w-[9rem] text-[18px]
+                <a href="" className='py-2 px-4 bg-[#25DAC5] rounded-[6.5rem] max-w-[9rem] text-[18px] hover:scale-[1.05] 
+                transition-all duration-200 active:scale-[0.95]
                     text-center hover:bg-transparent border hover:text-[#25DAC5] text-white hover:border-[#25DAC5]'>
                     Learn More
                 </a>
