@@ -1,4 +1,6 @@
 import React from 'react'
+import {BsFacebook, BsTwitter, BsGithub} from 'react-icons/bs'
+
 
 const Footer = () => {
   return (
@@ -29,14 +31,16 @@ const Footer = () => {
             </div>
             <div className='flex flex-col space-y-2'>
                 <h4>Subscribe our Newsletter</h4>
-                <div className="flex items-start justify-center">
+                <div className="flex items-start justify-start">
                     <input type="text" className="rounded-full px-4 border py-2 focus:outline-none" placeholder='Your Email' />
                     <button className='bg-[#25DAC5] border-[#25DAC5] px-4 py-2 text-white text-[18px] duration-200
                      focus:outline-none hover:text-[#25DAC5] hover:bg-white hover:scale-[1.05] active:scale-[0.95] transition-all
                     flex items-center justify-center rounded-full'>Subscribe</button>
                 </div>
-                <div>
-                    <span>Facebook</span>
+                <div className='flex space-x-4'>
+                    <BsFacebook />
+                    <BsTwitter />
+                    <BsGithub/>
                 </div>
             </div>
         </div>
