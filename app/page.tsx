@@ -8,6 +8,7 @@ import Content from './Content';
 // import Testimonial from './Testimonial';
 import Testimons from './Testimons';
 import Team from './Team';
+import Footer from './Footer'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,6 +22,7 @@ export default function Home() {
     <Content />
     <Testimons />
     <Team />
+    <Footer />
     </>
   )
 }
